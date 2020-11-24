@@ -12,7 +12,7 @@ public class Apto extends Construcao {
 	private int nQuartos;
 
 	public Apto(double a, double p) {
-		// TODO
+		
 	}
 
 	@Override
@@ -23,7 +23,7 @@ public class Apto extends Construcao {
 
 	@Override
 	public String getDatos() {
-		return super.getDatos();
+		return "O número de quartos é são: " + nQuartos;
 	}
 
 	@Override
