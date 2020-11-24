@@ -3,11 +3,10 @@ package david.augusto.luan.entidades;
 public class Loja extends Construcao {
 
 	private double sales;
-	
+
 	@Override
 	public String getDatos() {
-		// TODO Auto-generated method stub
-		return null;
+		return "As vendas da loja é de R$ %d.2f" + sales;
 	}
 
 	@Override
@@ -16,8 +15,13 @@ public class Loja extends Construcao {
 	}
 
 	@Override
+	public void printDatos() {
+		super.printDatos();
+	}
+
+	@Override
 	public double getPrecoTotal() {
-		return 0;
+		return super.getPrecoTotal() + sales * COMMISION_RATE;
 	}
 
 }

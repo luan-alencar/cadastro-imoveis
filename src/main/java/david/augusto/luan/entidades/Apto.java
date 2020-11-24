@@ -23,14 +23,17 @@ public class Apto extends Construcao {
 
 	@Override
 	public String getDatos() {
-		// TODO Auto-generated method stub
-		return null;
+		return super.getDatos();
+	}
+
+	@Override
+	public void printDatos() {
+		super.printDatos();
 	}
 
 	@Override
 	public double getPrecoTotal() {
-		// TODO Auto-generated method stub
-		return 0;
+		return super.getPrecoTotal();
 	}
 
 }
