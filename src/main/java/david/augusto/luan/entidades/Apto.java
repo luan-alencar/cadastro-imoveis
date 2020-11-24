@@ -17,13 +17,12 @@ public class Apto extends Construcao {
 
 	@Override
 	public void setVendas(double sales) {
-		// TODO Auto-generated method stub
 
 	}
 
 	@Override
 	public String getDatos() {
-		return "O número de quartos é são: " + nQuartos;
+		return "O número de quartos é são: " + this.nQuartos;
 	}
 
 	@Override
@@ -33,7 +32,7 @@ public class Apto extends Construcao {
 
 	@Override
 	public double getPrecoTotal() {
-		return super.getPrecoTotal();
+		return super.getPrecoTotal() * this.nQuartos;
 	}
 
 }

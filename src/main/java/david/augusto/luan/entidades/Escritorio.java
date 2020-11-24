@@ -10,7 +10,7 @@ public class Escritorio extends Apto {
 
 	@Override
 	public void setVendas(double sales) {
-		super.setVendas(sales);
+		super.setVendas(this.sales + sales);
 	}
 
 	@Override
