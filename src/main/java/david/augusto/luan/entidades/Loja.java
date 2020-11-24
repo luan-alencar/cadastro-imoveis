@@ -6,7 +6,7 @@ public class Loja extends Construcao {
 
 	@Override
 	public String getDatos() {
-		return "As vendas da loja é de R$ %d.2f" + sales;
+		return "As vendas da loja tem um total de R$ %d.2f" + sales;
 	}
 
 	@Override
