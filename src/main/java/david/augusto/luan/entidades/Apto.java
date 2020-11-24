@@ -12,12 +12,12 @@ public class Apto extends Construcao {
 	private int nQuartos;
 
 	public Apto(double a, double p) {
-		
+
 	}
 
 	@Override
 	public void setVendas(double sales) {
-		
+
 	}
 
 	@Override

@@ -14,13 +14,12 @@ public class Escritorio extends Apto {
 
 	@Override
 	public String getDatos() {
-		// TODO Auto-generated method stub
-		return super.getDatos();
+		return "Vendas:  R$ %d.2f" + sales +
+				"Preço total:  R$ %d.2f" + getPrecoTotal();
 	}
 
 	@Override
 	public double getPrecoTotal() {
-		// TODO Auto-generated method stub
 		return super.getPrecoTotal();
 	}
 
