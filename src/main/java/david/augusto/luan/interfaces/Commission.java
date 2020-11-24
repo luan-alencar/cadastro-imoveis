@@ -1,4 +1,4 @@
-package david.augusto.luan.entidades;
+package david.augusto.luan.interfaces;
 
 public interface Commission {
 

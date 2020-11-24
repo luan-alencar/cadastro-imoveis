@@ -5,13 +5,14 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter
-@Setter @NoArgsConstructor
+@Setter
+@NoArgsConstructor
 public class Apto extends Construcao {
 
 	private int nQuartos;
-	
+
 	public Apto(double a, double p) {
-		
+		// TODO
 	}
 
 	@Override
@@ -27,14 +28,9 @@ public class Apto extends Construcao {
 	}
 
 	@Override
-	public double gerPrecoTotal() {
+	public double getPrecoTotal() {
 		// TODO Auto-generated method stub
 		return 0;
-	}
-
-	public Apto(int nQuartos) {
-		super();
-		this.nQuartos = nQuartos;
 	}
 
 }

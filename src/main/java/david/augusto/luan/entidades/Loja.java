@@ -16,7 +16,7 @@ public class Loja extends Construcao {
 	}
 
 	@Override
-	public double gerPrecoTotal() {
+	public double getPrecoTotal() {
 		return 0;
 	}
 
