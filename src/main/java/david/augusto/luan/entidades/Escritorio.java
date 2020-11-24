@@ -1,12 +1,11 @@
 package david.augusto.luan.entidades;
 
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
 public class Escritorio extends Apto {
 
 	private double sales;
-
-	public Escritorio() {
-		super();
-	}
 
 	@Override
 	public void setVendas(double sales) {

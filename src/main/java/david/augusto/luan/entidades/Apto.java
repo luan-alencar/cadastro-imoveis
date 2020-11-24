@@ -17,12 +17,12 @@ public class Apto extends Construcao {
 
 	@Override
 	public void setVendas(double sales) {
-
+		
 	}
 
 	@Override
 	public String getDatos() {
-		return "O número de quartos é são: " + this.nQuartos;
+		return this.nQuartos + " Quartos";
 	}
 
 	@Override

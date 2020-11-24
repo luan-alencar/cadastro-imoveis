@@ -12,7 +12,7 @@ public abstract class Construcao implements Commission {
 	public String getDatos() {
 		return "O valor da área é de: " + area +
 				" e o preço da Área: R$ %d.2f" + precoArea +
-				" e o total é de R$ %d.2f" + getPrecoTotal();
+				" e preço total é de R$ %d.2f" + getPrecoTotal();
 	}
 
 	public void printDatos() {
