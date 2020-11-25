@@ -17,7 +17,7 @@ public class Apto extends Construcao {
 
 	@Override
 	public void setVendas(double sales) {
-
+		
 	}
 
 	@Override

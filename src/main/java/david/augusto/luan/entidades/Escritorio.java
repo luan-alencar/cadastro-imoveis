@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 public class Escritorio extends Apto {
 
 	private double sales;
+	Loja l = new Loja();
 
 	@Override
 	public void setVendas(double sales) {
@@ -20,7 +21,7 @@ public class Escritorio extends Apto {
 
 	@Override
 	public double getPrecoTotal() {
-		return super.getPrecoTotal();
+		return super.getPrecoTotal() * l.getPrecoTotal();
 	}
 
 }
